@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::resource('posts','PostController');
+
+Route::get('add_two_numbers','NumberController@add_two_numbers');
